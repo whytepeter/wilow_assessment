@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { ChartData } from '../types';
+import type { ChartData } from '@/types/chart.types';
 
 /**
  * Simulates API call to fetch ad spend data
