@@ -3,7 +3,7 @@ import React from 'react';
 
 export const ChartSkeletonLoader: React.FC = () => {
     return (
-        <div className="w-full p-4 sm:p-6 bg-white rounded-lg border border-slate-200">
+        <div className="w-full p-4 sm:p-6 bg-white rounded-xl border border-slate-200">
             {/* Header skeleton */}
             <div className="mb-4">
                 <div className="h-6 w-48 bg-slate-200 rounded animate-pulse mb-2" />
