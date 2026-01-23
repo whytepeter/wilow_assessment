@@ -16,13 +16,13 @@ export const AdSpendChart: React.FC<AdSpendChartProps> = ({ data }) => {
             label: '2024 Ad Spend',
             data: data.data.map(d => d["2024"]),
             borderColor: '#3841fc',
-            backgroundColor: 'rgba(56, 65, 252, 0.1)', // Matches #3841fc
+            backgroundColor: 'rgba(56, 65, 252, 0.1)',
         },
         {
             label: '2025 Ad Spend',
             data: data.data.map(d => d["2025"]),
             borderColor: '#f6791f',
-            backgroundColor: 'rgba(246, 121, 31, 0.1)', // Matches #f6791f
+            backgroundColor: 'rgba(246, 121, 31, 0.1)',
         }
     ];
 
@@ -42,7 +42,6 @@ export const AdSpendChart: React.FC<AdSpendChartProps> = ({ data }) => {
             },
         },
     };
-
 
 
     return (

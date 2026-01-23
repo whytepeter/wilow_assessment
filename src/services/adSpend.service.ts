@@ -48,7 +48,7 @@ export const fetchAdSpendData = async (): Promise<ChartData> => {
       } catch (error: any) {
         reject(new Error('Failed to fetch ad spend data: ' + error.message));
       }
-    }, 1000);
+    }, 1500);
   });
 };
 
